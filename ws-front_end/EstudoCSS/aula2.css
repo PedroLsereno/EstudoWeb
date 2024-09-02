@@ -1,0 +1,17 @@
+/*
+VALORES E UNIDADE DE MEDIDA
+
+Cada propriedade possui um valor
+property: value
+
+Tipo de dado: <data-type>
+
+h1 {
+    color: blue; --> Tipo de dado: color
+    font-size: 32px; --> Tipo de dado: lenght
+    letter-spacing: 2; --> Tipo de dado: number
+    text-transform: uppercase; --> Tipo de dado: keyword
+}
+
+Se não souber o tipo de dado, vai do MDN e pesquisa a propriedade la
+*/

@@ -1,0 +1,73 @@
+/* CSS */
+
+
+/*
+ANATOMIA
+
+-Declaration 
+-Selector 
+-{} - context
+-Properties
+-Poperty value
+
+Isso tudo abaixo é uma declaração
+h1 {
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+
+h1 é o seletor
+
+*/
+
+/*
+CASCATING
+
+- Hierarquia de regras
+Ele considera o último a ser colocado
+
+
+p{
+    color: blue;
+}
+p{
+    color: red; <-- ELE COSIDERA ESSE
+}
+
+Só não considera o último se o anterior for mais específico que ele.
+*/
+
+/*
+ESPECIFICIDADE
+
+Cada seletor tem um peso, e a soma desses peso faz com que a declaração seja aplicada.
+
+#id - 100
+.class - 10
+element - 1
+
+#nome{ Vale 100 pontos
+    color: blue;
+}
+.green{  vale 10 pontos
+    color: red;
+}
+p{ vale 1 ponto
+    color: orange;
+}
+
+p#nome.green{ vale 111 pontos
+    color: pink;
+}
+
+
+Tem como ser mais especifico ainda, que é aplicar o style direto na tag.
+Porém o mais especifico é se você adicionar um !important no atribudo
+
+p{
+    color: blue !important; --> NÃO É RECOMENDADO UTILIZAR
+}
+*/
+
